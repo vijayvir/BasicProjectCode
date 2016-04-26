@@ -14,22 +14,10 @@
 		10F551F61CB6400C00945DA0 /* Basic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10F551F41CB6400C00945DA0 /* Basic.xcdatamodeld */; };
 		10F551F81CB6400C00945DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F551F71CB6400C00945DA0 /* Assets.xcassets */; };
 		10F551FB1CB6400C00945DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F551F91CB6400C00945DA0 /* LaunchScreen.storyboard */; };
-		10F5522E1CB6407100945DA0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552041CB6407100945DA0 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
-		10F5522F1CB6407100945DA0 /* LeoKitHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552081CB6407100945DA0 /* LeoKitHttp.m */; settings = {ASSET_TAGS = (); }; };
-		10F552301CB6407100945DA0 /* ImageViewAsincLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5520B1CB6407100945DA0 /* ImageViewAsincLoader.m */; settings = {ASSET_TAGS = (); }; };
-		10F552311CB6407100945DA0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5520E1CB6407100945DA0 /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
 		10F552321CB6407100945DA0 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552111CB6407100945DA0 /* TPKeyboardAvoidingCollectionView.m */; settings = {ASSET_TAGS = (); }; };
 		10F552331CB6407100945DA0 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552131CB6407100945DA0 /* TPKeyboardAvoidingScrollView.m */; settings = {ASSET_TAGS = (); }; };
 		10F552341CB6407100945DA0 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552151CB6407100945DA0 /* TPKeyboardAvoidingTableView.m */; settings = {ASSET_TAGS = (); }; };
 		10F552351CB6407100945DA0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552171CB6407100945DA0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		10F552361CB6407100945DA0 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5521B1CB6407100945DA0 /* JSONKeyMapper.m */; settings = {ASSET_TAGS = (); }; };
-		10F552371CB6407100945DA0 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5521D1CB6407100945DA0 /* JSONValueTransformer.m */; settings = {ASSET_TAGS = (); }; };
-		10F552381CB6407100945DA0 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552201CB6407100945DA0 /* JSONModel.m */; settings = {ASSET_TAGS = (); }; };
-		10F552391CB6407100945DA0 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552221CB6407100945DA0 /* JSONModelClassProperty.m */; settings = {ASSET_TAGS = (); }; };
-		10F5523A1CB6407100945DA0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552241CB6407100945DA0 /* JSONModelError.m */; settings = {ASSET_TAGS = (); }; };
-		10F5523B1CB6407100945DA0 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552271CB6407100945DA0 /* JSONAPI.m */; settings = {ASSET_TAGS = (); }; };
-		10F5523C1CB6407100945DA0 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F552291CB6407100945DA0 /* JSONHTTPClient.m */; settings = {ASSET_TAGS = (); }; };
-		10F5523D1CB6407100945DA0 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5522B1CB6407100945DA0 /* JSONModel+networking.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,15 +32,6 @@
 		10F551F71CB6400C00945DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F551FA1CB6400C00945DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F551FC1CB6400C00945DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10F552031CB6407100945DA0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		10F552041CB6407100945DA0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		10F552061CB6407100945DA0 /* LeoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoKit.h; sourceTree = "<group>"; };
-		10F552071CB6407100945DA0 /* LeoKitHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoKitHttp.h; sourceTree = "<group>"; };
-		10F552081CB6407100945DA0 /* LeoKitHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoKitHttp.m; sourceTree = "<group>"; };
-		10F5520A1CB6407100945DA0 /* ImageViewAsincLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewAsincLoader.h; sourceTree = "<group>"; };
-		10F5520B1CB6407100945DA0 /* ImageViewAsincLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewAsincLoader.m; sourceTree = "<group>"; };
-		10F5520D1CB6407100945DA0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		10F5520E1CB6407100945DA0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		10F552101CB6407100945DA0 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
 		10F552111CB6407100945DA0 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
 		10F552121CB6407100945DA0 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
@@ -61,23 +40,6 @@
 		10F552151CB6407100945DA0 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		10F552161CB6407100945DA0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		10F552171CB6407100945DA0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
-		10F552191CB6407100945DA0 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
-		10F5521A1CB6407100945DA0 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
-		10F5521B1CB6407100945DA0 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
-		10F5521C1CB6407100945DA0 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
-		10F5521D1CB6407100945DA0 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
-		10F5521F1CB6407100945DA0 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
-		10F552201CB6407100945DA0 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
-		10F552211CB6407100945DA0 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
-		10F552221CB6407100945DA0 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
-		10F552231CB6407100945DA0 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
-		10F552241CB6407100945DA0 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
-		10F552261CB6407100945DA0 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
-		10F552271CB6407100945DA0 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
-		10F552281CB6407100945DA0 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
-		10F552291CB6407100945DA0 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
-		10F5522A1CB6407100945DA0 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
-		10F5522B1CB6407100945DA0 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +82,6 @@
 				10F5520C1CB6407100945DA0 /* ImageLoader */,
 				10F5520F1CB6407100945DA0 /* Reachability */,
 				10F552181CB6407100945DA0 /* TPKeyboardAvoiding */,
-				10F5522D1CB6407100945DA0 /* JsonModal */,
 				10F551F11CB6400C00945DA0 /* Main.storyboard */,
 				10F551F71CB6400C00945DA0 /* Assets.xcassets */,
 				10F551F91CB6400C00945DA0 /* LaunchScreen.storyboard */,
@@ -150,8 +111,6 @@
 		10F552051CB6407100945DA0 /* MBProgressiveHuc */ = {
 			isa = PBXGroup;
 			children = (
-				10F552031CB6407100945DA0 /* MBProgressHUD.h */,
-				10F552041CB6407100945DA0 /* MBProgressHUD.m */,
 			);
 			name = MBProgressiveHuc;
 			path = "../../../../../../GitBlit/Liberty/Liberty/Custom Cells";
@@ -160,9 +119,6 @@
 		10F552091CB6407100945DA0 /* VJHTTP */ = {
 			isa = PBXGroup;
 			children = (
-				10F552061CB6407100945DA0 /* LeoKit.h */,
-				10F552071CB6407100945DA0 /* LeoKitHttp.h */,
-				10F552081CB6407100945DA0 /* LeoKitHttp.m */,
 			);
 			name = VJHTTP;
 			path = "../../../../../../GitBlit/Liberty/Liberty/Custom Cells";
@@ -171,8 +127,6 @@
 		10F5520C1CB6407100945DA0 /* ImageLoader */ = {
 			isa = PBXGroup;
 			children = (
-				10F5520A1CB6407100945DA0 /* ImageViewAsincLoader.h */,
-				10F5520B1CB6407100945DA0 /* ImageViewAsincLoader.m */,
 			);
 			name = ImageLoader;
 			path = "../../../../../../GitBlit/Liberty/Liberty/Custom Cells";
@@ -181,8 +135,6 @@
 		10F5520F1CB6407100945DA0 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				10F5520D1CB6407100945DA0 /* Reachability.h */,
-				10F5520E1CB6407100945DA0 /* Reachability.m */,
 			);
 			name = Reachability;
 			path = "../../../../../../GitBlit/Liberty/Liberty/Custom Cells";
@@ -203,55 +155,6 @@
 			name = TPKeyboardAvoiding;
 			path = "/Volumes/Disk_2/GitBlit/Liberty/Liberty/Custom Cells/../Support/TPKeyboardAvoiding";
 			sourceTree = "<absolute>";
-		};
-		10F5521E1CB6407100945DA0 /* ModelTransform */ = {
-			isa = PBXGroup;
-			children = (
-				10F5521A1CB6407100945DA0 /* JSONKeyMapper.h */,
-				10F5521B1CB6407100945DA0 /* JSONKeyMapper.m */,
-				10F5521C1CB6407100945DA0 /* JSONValueTransformer.h */,
-				10F5521D1CB6407100945DA0 /* JSONValueTransformer.m */,
-			);
-			name = ModelTransform;
-			sourceTree = "<group>";
-		};
-		10F552251CB6407100945DA0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				10F5521F1CB6407100945DA0 /* JSONModel.h */,
-				10F552201CB6407100945DA0 /* JSONModel.m */,
-				10F552211CB6407100945DA0 /* JSONModelClassProperty.h */,
-				10F552221CB6407100945DA0 /* JSONModelClassProperty.m */,
-				10F552231CB6407100945DA0 /* JSONModelError.h */,
-				10F552241CB6407100945DA0 /* JSONModelError.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		10F5522C1CB6407100945DA0 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				10F552261CB6407100945DA0 /* JSONAPI.h */,
-				10F552271CB6407100945DA0 /* JSONAPI.m */,
-				10F552281CB6407100945DA0 /* JSONHTTPClient.h */,
-				10F552291CB6407100945DA0 /* JSONHTTPClient.m */,
-				10F5522A1CB6407100945DA0 /* JSONModel+networking.h */,
-				10F5522B1CB6407100945DA0 /* JSONModel+networking.m */,
-			);
-			name = Networking;
-			sourceTree = "<group>";
-		};
-		10F5522D1CB6407100945DA0 /* JsonModal */ = {
-			isa = PBXGroup;
-			children = (
-				10F552191CB6407100945DA0 /* JSONModelLib.h */,
-				10F5521E1CB6407100945DA0 /* ModelTransform */,
-				10F552251CB6407100945DA0 /* Model */,
-				10F5522C1CB6407100945DA0 /* Networking */,
-			);
-			name = JsonModal;
-			path = "../../../../../../GitBlit/Liberty/Liberty/Custom Cells";
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -325,22 +228,10 @@
 			files = (
 				10F551F61CB6400C00945DA0 /* Basic.xcdatamodeld in Sources */,
 				10F552351CB6407100945DA0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
-				10F5523B1CB6407100945DA0 /* JSONAPI.m in Sources */,
 				10F552331CB6407100945DA0 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				10F552321CB6407100945DA0 /* TPKeyboardAvoidingCollectionView.m in Sources */,
-				10F5522F1CB6407100945DA0 /* LeoKitHttp.m in Sources */,
-				10F552361CB6407100945DA0 /* JSONKeyMapper.m in Sources */,
-				10F5523D1CB6407100945DA0 /* JSONModel+networking.m in Sources */,
-				10F552311CB6407100945DA0 /* Reachability.m in Sources */,
-				10F552301CB6407100945DA0 /* ImageViewAsincLoader.m in Sources */,
 				10F551F01CB6400C00945DA0 /* ViewController.m in Sources */,
-				10F5523A1CB6407100945DA0 /* JSONModelError.m in Sources */,
-				10F5523C1CB6407100945DA0 /* JSONHTTPClient.m in Sources */,
-				10F552391CB6407100945DA0 /* JSONModelClassProperty.m in Sources */,
-				10F552381CB6407100945DA0 /* JSONModel.m in Sources */,
-				10F5522E1CB6407100945DA0 /* MBProgressHUD.m in Sources */,
 				10F552341CB6407100945DA0 /* TPKeyboardAvoidingTableView.m in Sources */,
-				10F552371CB6407100945DA0 /* JSONValueTransformer.m in Sources */,
 				10F551ED1CB6400C00945DA0 /* AppDelegate.m in Sources */,
 				10F551EA1CB6400C00945DA0 /* main.m in Sources */,
 			);
@@ -489,6 +380,7 @@
 				10F552011CB6400C00945DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

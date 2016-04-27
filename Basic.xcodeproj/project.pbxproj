@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1068AEC51CCF28B700A66019 /* TableViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEBE1CCF28B700A66019 /* TableViewTextField.m */; settings = {ASSET_TAGS = (); }; };
+		1068AEC61CCF28B700A66019 /* NumberPadTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEC01CCF28B700A66019 /* NumberPadTextfield.m */; settings = {ASSET_TAGS = (); }; };
+		1068AEC71CCF28B700A66019 /* DatePickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEC21CCF28B700A66019 /* DatePickerTextField.m */; settings = {ASSET_TAGS = (); }; };
+		1068AEC81CCF28B700A66019 /* TimePickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEC41CCF28B700A66019 /* TimePickerTextField.m */; settings = {ASSET_TAGS = (); }; };
+		1068AECC1CCF28DC00A66019 /* LeoCallbackAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AECB1CCF28DC00A66019 /* LeoCallbackAlertView.m */; settings = {ASSET_TAGS = (); }; };
+		1068AED01CCF290600A66019 /* LeoKitHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AECF1CCF290600A66019 /* LeoKitHttp.m */; settings = {ASSET_TAGS = (); }; };
+		1068AED41CCF292C00A66019 /* ScrollViewImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AED31CCF292C00A66019 /* ScrollViewImages.m */; settings = {ASSET_TAGS = (); }; };
+		1068AED81CCF294D00A66019 /* UISinglePhotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AED71CCF294D00A66019 /* UISinglePhotButton.m */; settings = {ASSET_TAGS = (); }; };
+		1068AEDC1CCF2BFB00A66019 /* ImageViewAsincLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEDB1CCF2BFB00A66019 /* ImageViewAsincLoader.m */; settings = {ASSET_TAGS = (); }; };
+		1068AEDF1CCF2C9900A66019 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEDE1CCF2C9900A66019 /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
 		10F551EA1CB6400C00945DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F551E91CB6400C00945DA0 /* main.m */; };
 		10F551ED1CB6400C00945DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F551EC1CB6400C00945DA0 /* AppDelegate.m */; };
 		10F551F01CB6400C00945DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F551EF1CB6400C00945DA0 /* ViewController.m */; };
@@ -21,6 +31,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1068AEBD1CCF28B700A66019 /* TableViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewTextField.h; sourceTree = "<group>"; };
+		1068AEBE1CCF28B700A66019 /* TableViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewTextField.m; sourceTree = "<group>"; };
+		1068AEBF1CCF28B700A66019 /* NumberPadTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPadTextfield.h; sourceTree = "<group>"; };
+		1068AEC01CCF28B700A66019 /* NumberPadTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPadTextfield.m; sourceTree = "<group>"; };
+		1068AEC11CCF28B700A66019 /* DatePickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerTextField.h; sourceTree = "<group>"; };
+		1068AEC21CCF28B700A66019 /* DatePickerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerTextField.m; sourceTree = "<group>"; };
+		1068AEC31CCF28B700A66019 /* TimePickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickerTextField.h; sourceTree = "<group>"; };
+		1068AEC41CCF28B700A66019 /* TimePickerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickerTextField.m; sourceTree = "<group>"; };
+		1068AECA1CCF28DC00A66019 /* LeoCallbackAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoCallbackAlertView.h; sourceTree = "<group>"; };
+		1068AECB1CCF28DC00A66019 /* LeoCallbackAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoCallbackAlertView.m; sourceTree = "<group>"; };
+		1068AECE1CCF290600A66019 /* LeoKitHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoKitHttp.h; sourceTree = "<group>"; };
+		1068AECF1CCF290600A66019 /* LeoKitHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoKitHttp.m; sourceTree = "<group>"; };
+		1068AED21CCF292C00A66019 /* ScrollViewImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewImages.h; sourceTree = "<group>"; };
+		1068AED31CCF292C00A66019 /* ScrollViewImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewImages.m; sourceTree = "<group>"; };
+		1068AED61CCF294D00A66019 /* UISinglePhotButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISinglePhotButton.h; sourceTree = "<group>"; };
+		1068AED71CCF294D00A66019 /* UISinglePhotButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISinglePhotButton.m; sourceTree = "<group>"; };
+		1068AED91CCF2BA700A66019 /* LeoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeoKit.h; sourceTree = "<group>"; };
+		1068AEDA1CCF2BFB00A66019 /* ImageViewAsincLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewAsincLoader.h; sourceTree = "<group>"; };
+		1068AEDB1CCF2BFB00A66019 /* ImageViewAsincLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewAsincLoader.m; sourceTree = "<group>"; };
+		1068AEDD1CCF2C9900A66019 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1068AEDE1CCF2C9900A66019 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		10F551E51CB6400C00945DA0 /* Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F551E91CB6400C00945DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10F551EB1CB6400C00945DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +84,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1068AEBB1CCF288700A66019 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1068AED51CCF293800A66019 /* PhotoButto */,
+				1068AED11CCF291C00A66019 /* scrollViewImages */,
+				1068AEE01CCF2D5500A66019 /* Reachability */,
+				1068AECD1CCF28FB00A66019 /* Http */,
+				1068AEC91CCF28CA00A66019 /* AlertView */,
+				1068AEBC1CCF289100A66019 /* TextFiled */,
+				1068AED91CCF2BA700A66019 /* LeoKit.h */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		1068AEBC1CCF289100A66019 /* TextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				1068AEBD1CCF28B700A66019 /* TableViewTextField.h */,
+				1068AEBE1CCF28B700A66019 /* TableViewTextField.m */,
+				1068AEBF1CCF28B700A66019 /* NumberPadTextfield.h */,
+				1068AEC01CCF28B700A66019 /* NumberPadTextfield.m */,
+				1068AEC11CCF28B700A66019 /* DatePickerTextField.h */,
+				1068AEC21CCF28B700A66019 /* DatePickerTextField.m */,
+				1068AEC31CCF28B700A66019 /* TimePickerTextField.h */,
+				1068AEC41CCF28B700A66019 /* TimePickerTextField.m */,
+			);
+			name = TextFiled;
+			sourceTree = "<group>";
+		};
+		1068AEC91CCF28CA00A66019 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1068AECA1CCF28DC00A66019 /* LeoCallbackAlertView.h */,
+				1068AECB1CCF28DC00A66019 /* LeoCallbackAlertView.m */,
+			);
+			name = AlertView;
+			sourceTree = "<group>";
+		};
+		1068AECD1CCF28FB00A66019 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				1068AECE1CCF290600A66019 /* LeoKitHttp.h */,
+				1068AECF1CCF290600A66019 /* LeoKitHttp.m */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		1068AED11CCF291C00A66019 /* scrollViewImages */ = {
+			isa = PBXGroup;
+			children = (
+				1068AED21CCF292C00A66019 /* ScrollViewImages.h */,
+				1068AED31CCF292C00A66019 /* ScrollViewImages.m */,
+				1068AEDA1CCF2BFB00A66019 /* ImageViewAsincLoader.h */,
+				1068AEDB1CCF2BFB00A66019 /* ImageViewAsincLoader.m */,
+			);
+			name = scrollViewImages;
+			sourceTree = "<group>";
+		};
+		1068AED51CCF293800A66019 /* PhotoButto */ = {
+			isa = PBXGroup;
+			children = (
+				1068AED61CCF294D00A66019 /* UISinglePhotButton.h */,
+				1068AED71CCF294D00A66019 /* UISinglePhotButton.m */,
+			);
+			name = PhotoButto;
+			sourceTree = "<group>";
+		};
+		1068AEE01CCF2D5500A66019 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1068AEDD1CCF2C9900A66019 /* Reachability.h */,
+				1068AEDE1CCF2C9900A66019 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 		10F551DC1CB6400C00945DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +183,7 @@
 				10F551EC1CB6400C00945DA0 /* AppDelegate.m */,
 				10F551EE1CB6400C00945DA0 /* ViewController.h */,
 				10F551EF1CB6400C00945DA0 /* ViewController.m */,
+				1068AEBB1CCF288700A66019 /* Resourses */,
 				10F552021CB6407100945DA0 /* JSON */,
 				10F552051CB6407100945DA0 /* MBProgressiveHuc */,
 				10F552091CB6407100945DA0 /* VJHTTP */,
@@ -229,11 +337,21 @@
 				10F551F61CB6400C00945DA0 /* Basic.xcdatamodeld in Sources */,
 				10F552351CB6407100945DA0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				10F552331CB6407100945DA0 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				1068AED01CCF290600A66019 /* LeoKitHttp.m in Sources */,
 				10F552321CB6407100945DA0 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				1068AEC71CCF28B700A66019 /* DatePickerTextField.m in Sources */,
+				1068AED81CCF294D00A66019 /* UISinglePhotButton.m in Sources */,
+				1068AEC61CCF28B700A66019 /* NumberPadTextfield.m in Sources */,
+				1068AED41CCF292C00A66019 /* ScrollViewImages.m in Sources */,
+				1068AEC81CCF28B700A66019 /* TimePickerTextField.m in Sources */,
+				1068AEC51CCF28B700A66019 /* TableViewTextField.m in Sources */,
 				10F551F01CB6400C00945DA0 /* ViewController.m in Sources */,
 				10F552341CB6407100945DA0 /* TPKeyboardAvoidingTableView.m in Sources */,
+				1068AECC1CCF28DC00A66019 /* LeoCallbackAlertView.m in Sources */,
 				10F551ED1CB6400C00945DA0 /* AppDelegate.m in Sources */,
 				10F551EA1CB6400C00945DA0 /* main.m in Sources */,
+				1068AEDF1CCF2C9900A66019 /* Reachability.m in Sources */,
+				1068AEDC1CCF2BFB00A66019 /* ImageViewAsincLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

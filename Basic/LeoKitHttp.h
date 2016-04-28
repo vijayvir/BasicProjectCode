@@ -13,7 +13,7 @@ typedef void (^failureBlock) ( NSDictionary *resultdict,NSURLResponse *response,
 
 
 
-+(void)sendMultipleImagesWithUserId:(NSString*)user_id school_code:(NSString*)school_code card_name:(NSString*)card_name withFileArray:(NSArray*)arr_fileName  successBlock:(completionBlock)completionBlockService
++(void)sendMultipleImagesWithFileArray:(NSArray*)arr_fileName  successBlock:(completionBlock)completionBlockService
                        failureBlock:(failureBlock)failureBlockService;
 
 

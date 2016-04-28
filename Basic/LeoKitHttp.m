@@ -13,8 +13,8 @@
 
 
 
-+(void)sendMultipleImagesWithUserId:(NSString*)user_id school_code:(NSString*)school_code card_name:(NSString*)card_name withFileArray:(NSArray*)arr_fileName  successBlock:(completionBlock)completionBlockService
-                       failureBlock:(failureBlock)failureBlockService
++(void)sendMultipleImagesWithFileArray:(NSArray*)arr_fileName  successBlock:(completionBlock)completionBlockService
+                          failureBlock:(failureBlock)failureBlockService
 {
 
     
@@ -22,25 +22,27 @@
                                @"cache-control": @"no-cache",
                            };
     
-    NSArray *parameters = @[ @{ @"name": @"user_id", @"value": user_id },
-                                                @{ @"name": @"school_code", @"value": school_code },
-                             @{ @"name": @"card_name", @"value": card_name } ];
+//    NSArray *parameters = @[ @{ @"name": @"user_id", @"value": user_id },
+//                                                @{ @"name": @"school_code", @"value": school_code },
+//                             @{ @"name": @"card_name", @"value": card_name } ];
     NSString *boundary = @"---011000010111000001101001";
     
     NSError *error;
     NSMutableString *body = [NSMutableString string];
   
-    for (NSDictionary *param in parameters  )
+//    for (NSDictionary *param in parameters  )
+//    
+//    {
+//        [body appendFormat:@"--%@\r\n", boundary];
+//      
+//        {
+//            [body appendFormat:@"Content-Disposition:form-data; name=\"%@\"\r\n\r\n", param[@"name"]];
+//            [body appendFormat:@"%@\r\n", param[@"value"]];
+//        }
+//        
+//    }
     
-    {
-        [body appendFormat:@"--%@\r\n", boundary];
-      
-        {
-            [body appendFormat:@"Content-Disposition:form-data; name=\"%@\"\r\n\r\n", param[@"name"]];
-            [body appendFormat:@"%@\r\n", param[@"value"]];
-        }
-        
-    }
+    
      NSMutableData *postData = [[body dataUsingEncoding:NSUTF8StringEncoding] mutableCopy];
     for (NSString * files in arr_fileName) {
         

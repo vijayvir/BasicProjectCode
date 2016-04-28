@@ -25,4 +25,6 @@
 @interface UISinglePhotButton : UIButton<UIImagePickerControllerDelegate>
 
 @property(weak,nonatomic) IBOutlet id<VjUISinglePhotButtonDatasource>delegateSP;
++(void)removeCache;
+
 @end

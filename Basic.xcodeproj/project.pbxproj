@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103A6B6A1CD22A6800559B63 /* UIMultiplePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 103A6B691CD22A6800559B63 /* UIMultiplePhoto.m */; settings = {ASSET_TAGS = (); }; };
 		1068AEC51CCF28B700A66019 /* TableViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEBE1CCF28B700A66019 /* TableViewTextField.m */; settings = {ASSET_TAGS = (); }; };
 		1068AEC61CCF28B700A66019 /* NumberPadTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEC01CCF28B700A66019 /* NumberPadTextfield.m */; settings = {ASSET_TAGS = (); }; };
 		1068AEC71CCF28B700A66019 /* DatePickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1068AEC21CCF28B700A66019 /* DatePickerTextField.m */; settings = {ASSET_TAGS = (); }; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103A6B681CD22A6800559B63 /* UIMultiplePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMultiplePhoto.h; sourceTree = "<group>"; };
+		103A6B691CD22A6800559B63 /* UIMultiplePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMultiplePhoto.m; sourceTree = "<group>"; };
 		1068AEBD1CCF28B700A66019 /* TableViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewTextField.h; sourceTree = "<group>"; };
 		1068AEBE1CCF28B700A66019 /* TableViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewTextField.m; sourceTree = "<group>"; };
 		1068AEBF1CCF28B700A66019 /* NumberPadTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPadTextfield.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 		1068AED51CCF293800A66019 /* PhotoButto */ = {
 			isa = PBXGroup;
 			children = (
+				103A6B681CD22A6800559B63 /* UIMultiplePhoto.h */,
+				103A6B691CD22A6800559B63 /* UIMultiplePhoto.m */,
 				1068AED61CCF294D00A66019 /* UISinglePhotButton.h */,
 				1068AED71CCF294D00A66019 /* UISinglePhotButton.m */,
 			);
@@ -351,6 +356,7 @@
 				10F551ED1CB6400C00945DA0 /* AppDelegate.m in Sources */,
 				10F551EA1CB6400C00945DA0 /* main.m in Sources */,
 				1068AEDF1CCF2C9900A66019 /* Reachability.m in Sources */,
+				103A6B6A1CD22A6800559B63 /* UIMultiplePhoto.m in Sources */,
 				1068AEDC1CCF2BFB00A66019 /* ImageViewAsincLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -88,18 +88,39 @@
 
 #pragma mark -
 
-
--(void)addPhoto{
++(NSString*)photoPath
+{
+ 
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    
+      BOOL isDir = NO;
+    if (![fileManager fileExistsAtPath:[NSString stringWithFormat:@"%@/uiSinglePhoto",NSTemporaryDirectory()]
+                           isDirectory:&isDir] && isDir == NO) {
+        [fileManager createDirectoryAtPath:[NSString stringWithFormat:@"%@/uiSinglePhoto",NSTemporaryDirectory()]
+               withIntermediateDirectories:NO
+                                attributes:nil
+                                     error:nil];
+    }
     
     
+    return [NSString stringWithFormat:@"%@/uiSinglePhoto",NSTemporaryDirectory()];
+    
+}
++(void)removeCache{
     NSFileManager *fileMgr = [NSFileManager defaultManager];
-    NSArray *fileArray = [fileMgr contentsOfDirectoryAtPath:NSTemporaryDirectory() error:nil];
+    NSArray *fileArray = [fileMgr contentsOfDirectoryAtPath:[UISinglePhotButton photoPath] error:nil];
     for (NSString *filename in fileArray)
     {
         
-        [fileMgr removeItemAtPath:[NSTemporaryDirectory() stringByAppendingPathComponent:filename] error:NULL];
+        [fileMgr removeItemAtPath:[[UISinglePhotButton photoPath] stringByAppendingPathComponent:filename] error:NULL];
     }
     
+    
+}
+
+-(void)addPhoto
+{
+    [UISinglePhotButton removeCache];
     
     [LeoCallbackAlertView initWithTitle:@"Select image ." message:@"" preferredStyle:UIAlertControllerStyleActionSheet  cancelButtonTitle:@"Cancel" andCompletionHandler:^(NSUInteger index)
      {
@@ -157,10 +178,11 @@
     
 }
 
+#pragma mark- pickerView delegate
 
 - (void)imagePickerController:(UIImagePickerController *)picker_t didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-    NSString *fileName = [NSTemporaryDirectory() stringByAppendingPathComponent: [[[NSUUID UUID] UUIDString] stringByAppendingPathExtension:@"jpg"]] ;
+    NSString *fileName = [[UISinglePhotButton photoPath] stringByAppendingPathComponent: [[[NSUUID UUID] UUIDString] stringByAppendingPathExtension:@"jpg"]] ;
     
     
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];

@@ -22,9 +22,9 @@
                                @"cache-control": @"no-cache",
                            };
     
-//    NSArray *parameters = @[ @{ @"name": @"user_id", @"value": user_id },
-//                                                @{ @"name": @"school_code", @"value": school_code },
-//                             @{ @"name": @"card_name", @"value": card_name } ];
+//    NSArray *parameters = @[ @{ @"name": @"dsa", @"value": dsa },
+//                                                @{ @"name": @"school_code", @"value": dsa },
+//                             @{ @"name": @"dsa", @"value": dsa } ];
     NSString *boundary = @"---011000010111000001101001";
     
     NSError *error;

@@ -17,14 +17,12 @@ typedef void (^failureBlock) ( NSDictionary *resultdict,NSURLResponse *response,
                        failureBlock:(failureBlock)failureBlockService;
 
 
-+(void)sendMultipleImagesWithUserIde:(NSString*)user_id school_code:(NSString*)school_code card_name:(NSString*)card_name withFileArray:(NSArray*)arr_fileName;
+
 
 
 +(void)sendRequestPost:(NSDictionary*)dict
                  successBlock:(completionBlock)completionBlock
                  failureBlock:(failureBlock)failure;
-+ (void)sendAsynchronousRequest:(NSURLRequest*)request queue:(NSOperationQueue*)queue completionHandler:(void(^)(NSURLResponse *response, NSData *data, NSError *error))handler;
-//+ (void) sendRequestPost: (NSDictionary *) params type:(int) type delegate: (id<responseDelegate>) delegate withTag:(int)tag;
 
 
 @end

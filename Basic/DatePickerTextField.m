@@ -8,8 +8,8 @@
 
 #import "DatePickerTextField.h"
 
-#define dateformatVJ2 @"yyyy-MM-dd"
-#define dateformatVJ @"dd-MMM-yyyy"
+#define datePickerToPass @"yyyy-MM-dd"
+#define dateformatToShow @"dd-MMM-yyyy"
 
 
 @implementation DatePickerTextField
@@ -85,7 +85,7 @@
 - (void)keyboardWillShow:(NSNotification *)n
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:dateformatVJ];
+    [dateFormatter setDateFormat:dateformatToShow];
     
     
     if (self.text.length>0)
@@ -93,7 +93,7 @@
         if ( ![dateFormatter dateFromString:self.text])
         {
             NSDateFormatter *dateFormatter2 = [[NSDateFormatter alloc] init];
-            [dateFormatter2 setDateFormat:dateformatVJ2];
+            [dateFormatter2 setDateFormat:datePickerToPass];
              datePicker.date = [dateFormatter2 dateFromString:self.text];
             return;
             
@@ -157,7 +157,7 @@
     
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:dateformatVJ];
+    [dateFormatter setDateFormat:dateformatToShow];
     NSString *strDate = [dateFormatter stringFromDate:datePickerr.date];
     
     self.text = strDate;
@@ -167,7 +167,7 @@
         if ([delegateDP respondsToSelector:@selector(vjDatePickerValueChanged:withTextField:)])
         {
             NSDateFormatter *send = [[NSDateFormatter alloc] init];
-            [send setDateFormat:dateformatVJ2];
+            [send setDateFormat:datePickerToPass];
             NSString *sendDate = [send stringFromDate:datePickerr.date];
             
             

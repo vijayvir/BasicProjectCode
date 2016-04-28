@@ -119,26 +119,17 @@
     for (id asset  in self.arr_images)
         
         
-    {    UIImage * imege ;
+    {
+        
         ImageViewAsincLoader  *imrg = [[ImageViewAsincLoader alloc] initWithFrame:CGRectMake(xOffset,0,self.frame.size.width, 200)];
         
         
-        if ([[asset class] isSubclassOfClass:[ALAsset class]])
-        {
-            ALAssetRepresentation *representation = [(ALAsset*)asset defaultRepresentation];
-            
-            imege =   [UIImage imageWithCGImage:representation.fullResolutionImage
-                                         scale:[representation scale]
-                                   orientation:(UIImageOrientation)[representation orientation]];
-                imrg.image = imege;
-        }
-        else if ([[asset class] isSubclassOfClass:[NSString class]])
-        {
+     
          imrg.image = [UIImage imageNamed:asset];
             
             
          [imrg downloadFromURL:[NSURL URLWithString:(NSString*)asset ]];
-        }
+       
         
       
         // img.image = (UIImage*) [imagesarray objectAtIndex:index];
